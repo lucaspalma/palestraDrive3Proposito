@@ -96,27 +96,29 @@
 div.time {
 	border: 3px solid white;
 	border-radius: 7px;
-	height: 19em;
+	height: 20em;
     padding: 30px;
 	position: absolute;
 	top: -300px;
-	width: 750px;
+	width: 400px;
 }
 
 .time.--esquerda {
-    left: -365px;
+    left: 10px;
 }
 
 .time.--direita {
-    left: 525px;
+    left: 485px;
 }
 
 .time h4 {
+	font-size: 1.1em;
 	margin-bottom: 1em;
 	text-align: center;
 }
 
 .time h6 {
+	font-size: 1em;
 	text-align: left;
 }
 
@@ -199,6 +201,7 @@ div.time {
 }
 
 .reveal a {
-	color: #BDC3C7;
-	font-size: 1.2em;
+	color: #ffffff !important;
+	font-size: 0.9em;
+	text-decoration: underline !important;
 }
